@@ -10,15 +10,56 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap" rel="stylesheet" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <header class="header">
+      <!-- Navigation -->
+      <nav class="navigation navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="navigation__container container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section class="hero"></section>
+    </header>
+
+    <!-- Blog -->
+    <main class="blog">
+      <p class="blog__post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui vero eius distinctio suscipit aperiam itaque incidunt ut amet consectetur? Doloribus, facere? Quod dicta omnis quibusdam ab saepe, deleniti ducimus voluptas, quo culpa repellendus sequi impedit optio doloribus eius mollitia minima odio necessitatibus, itaque cum quis nesciunt! Cumque maxime maiores sunt nemo non reiciendis quas libero corrupti ducimus! Excepturi, iusto!
+      </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer"></footer>
+
     <!-- Jquery, Popper, Boostrap  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Local Scripts -->
     <script src="./assets/js/script.js"></script>
   </body>
