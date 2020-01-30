@@ -8,6 +8,10 @@ img {
   max-width: 100%;
 }
 
+.hero {
+  background-image: url("../images/post-image.jpg");
+}
+
 .footer {
   background-color: #121619;
 }
