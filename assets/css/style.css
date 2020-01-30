@@ -8,4 +8,35 @@ img {
   max-width: 100%;
 }
 
+.footer {
+  background-color: #121619;
+}
+
+.button {
+  display: inline-block;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background-color: #6c6e70;
+  border: none;
+  border-radius: 30px;
+  height: 51px;
+}
+.button:hover {
+  background-color: #d1d1d1;
+}
+.button:focus {
+  outline: none;
+  border: 3px solid #d1d1d1;
+}
+
+.button_size-small {
+  width: 115px;
+}
+
+.button_size-medium {
+  width: 182px;
+}
+
 /*# sourceMappingURL=style.css.map */

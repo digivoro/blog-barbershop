@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $white;
+  background-color: $nickel;
+  border: none;
+  border-radius: 30px;
+  height: 51px;
+
+  &:hover {
+    background-color: $light-gray;
+  }
+  &:focus {
+    outline: none;
+    border: 3px solid $light-gray;
+  }
+}
+
+.button_size-small {
+  width: 115px;
+}
+
+.button_size-medium {
+  width: 182px;
+}
