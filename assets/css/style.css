@@ -1,3 +1,7 @@
+html {
+  width: 100vw;
+}
+
 html,
 body {
   margin: 0;
@@ -8,12 +12,68 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: inherit;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+}
+
+.navigation {
+  background-color: #121619;
+}
+
+.nav-item--active {
+  color: #d76c69;
+}
+
 .hero {
+  height: 100vh;
   background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero__title {
+  position: absolute;
+  bottom: 30%;
+  width: 50%;
+  left: 25%;
+}
+
+.hero__arrow {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+}
+
+.blog__post {
+  margin-bottom: 3rem;
+}
+
+.blog__date {
+  margin-bottom: 3rem;
+}
+
+.blog__buttons {
+  margin-bottom: 3rem;
 }
 
 .footer {
   background-color: #121619;
+  padding: 2rem;
 }
 
 .button {
@@ -35,12 +95,82 @@ img {
   border: 3px solid #d1d1d1;
 }
 
-.button_size-small {
+.button--size-small {
   width: 115px;
 }
 
-.button_size-medium {
+.button--size-medium {
   width: 182px;
+}
+
+.logo {
+  width: 10vw;
+  min-width: 81px;
+  margin: auto;
+}
+
+.pager {
+  background-color: #e6e7e7;
+  padding: 3rem;
+}
+.pagera {
+  color: inherit;
+}
+
+.pager__item {
+  background-color: #fff;
+  color: #121619;
+}
+.pager__item .active {
+  background-color: #6c6e70;
+}
+
+.pager__link {
+  color: #121619;
+}
+
+.pager__item--prev,
+.pager__link--prev {
+  border-radius: 2rem 0 0 2rem;
+}
+
+.pager__item--next,
+.pager__link--next {
+  border-radius: 0 2rem 2rem 0;
+}
+
+.pager__link--active {
+  color: #fff;
+  background-color: #6c6e70;
+  border-color: #6c6e70;
+}
+
+.author {
+  margin-bottom: 3rem;
+}
+
+.author__photo {
+  border-radius: 50%;
+}
+
+.author__name {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.author__link {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ecbcba;
+}
+
+.author__paragraph {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6c6e70;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,12 +16,13 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+
   <body>
     <header class="header">
       <!-- Navigation -->
-      <nav class="navigation navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navigation navbar navbar-expand-md fixed-top text-white">
         <div class="navigation__container container">
-          <a class="navigation__logo navbar-brand" href="#"><img src="./assets/images/logo.png" alt="BaberShop Logo"/></a>
+          <a class="logo navbar-brand" href="#"><img class="logo__img" src="./assets/images/logo.png" alt="BaberShop Logo"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,7 +34,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Trabajos</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item nav-item--active">
                 <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
@@ -50,14 +51,14 @@
       <!-- Hero -->
       <section class="hero">
         <h1 class="hero__title">
-          5 formas de cuidar el cabello
+          5 formas de cuidar tu corte de cabello
         </h1>
-        <i class="fas fa-angle-double-down fa-3x"></i>
+        <i class="hero__arrow fas fa-angle-double-down fa-3x"></i>
       </section>
     </header>
 
     <!-- Blog -->
-    <section class="blog">
+    <article class="blog container">
       <div class="blog__post">
         <p class="blog__date">28 de enero de 2020</p>
         <p class="blog__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error blanditiis animi quae dolor aut eius molestiae nisi neque magnam dolorum! Tenetur, quas. Illum iure qui sapiente placeat unde. Veniam, veritatis!</p>
@@ -65,15 +66,51 @@
         <p class="blog__paragraph">Rerum optio autem maiores, maxime consequatur omnis! Nesciunt vel cumque corporis quasi, vitae facere aspernatur quidem quo eum quisquam, ullam consequuntur? Officia laudantium, ab nam vero necessitatibus quo eius expedita.</p>
         <p class="blog__paragraph">Explicabo natus distinctio pariatur asperiores ratione repellendus dignissimos enim consequatur. Doloremque est maxime tempora labore repellat non corrupti officiis nostrum, repudiandae, minus illo! Et accusamus veritatis officia hic qui inventore?</p>
         <p class="blog__paragraph">Incidunt cum repellendus provident expedita totam laboriosam inventore voluptatibus eaque, porro ratione unde officiis itaque earum? Magni, facilis, dolorem necessitatibus error molestiae, unde autem dicta magnam maxime nihil excepturi quaerat?</p>
-        <button class="button button_size-small">Compartir</button>
-        <button class="button button_size-medium">Comentar en Twitter</button>
+      </div>
+      <div class="blog__buttons">
+        <button class="button button--size-small">Compartir</button>
+        <button class="button button--size-medium">Comentar en Twitter</button>
+      </div>
+    </article>
+    <hr />
+
+    <!-- Author -->
+    <section class="author container">
+      <div class="row d-flex align-items-center justify-content-center ">
+        <img class="author__photo col-5 mx-auto col-sm-2" src="./assets/images/naomi-thai.png" alt="Naomi Thai" />
+        <div class="author__info pl-5 col-sm-3">
+          <h2 class="author__name">Naomi Thai</h2>
+          <h4 class="author__link"><a href="#">@Naothai</a></h4>
+          <h4 class="author__link"><a href="#">depelos.com</a></h4>
+        </div>
+        <p class="author__paragraph col-sm-7 d-none d-sm-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quae hic necessitatibus inventore totam distinctio, voluptas consequatur numquam quam debitis id molestiae omnis. Quisquam sunt ex ad perspiciatis deserunt. Natus.</p>
       </div>
     </section>
 
+    <!-- Pagination -->
+    <nav class="pager" aria-label="...">
+      <ul class="pagination justify-content-center">
+        <li class="pager__item pager__item--prev">
+          <span class="pager__link pager__item--prev page-link">Anterior</span>
+        </li>
+        <li class="pager__item page-item"><a class="pager__link page-link" href="#">1</a></li>
+        <li class="pager__item page-item" aria-current="page">
+          <span class="pager__link pager__link--active page-link">
+            2
+            <span class="sr-only">(current)</span>
+          </span>
+        </li>
+        <li class="pager__item page-item"><a class="pager__link page-link" href="#">3</a></li>
+        <li class="pager__item pager__item--next">
+          <a class="pager__link pager__link--next page-link" href="#">Siguiente</a>
+        </li>
+      </ul>
+    </nav>
+
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer__logo">
-        <img src="./assets/images/logo.png" alt="BarberShop Logo" />
+      <div class="logo">
+        <img class="logo__img" src="./assets/images/logo.png" alt="BarberShop Logo" />
       </div>
     </footer>
 

@@ -1,3 +1,22 @@
 .hero {
-  background-image: url("assets/images/post-image.jpg");
+  height: 100vh;
+  background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero__title {
+  position: absolute;
+  bottom: 30%;
+  width: 50%;
+  left: 25%;
+}
+
+.hero__arrow {
+  color: $white;
+  position: absolute;
+  bottom: 10px;
 }
