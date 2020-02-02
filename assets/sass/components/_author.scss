@@ -1,0 +1,26 @@
+.author {
+  margin-bottom: 3rem;
+}
+.author__photo {
+  border-radius: 50%;
+}
+
+.author__name {
+  font-family: $playfair-display;
+  font-weight: $black;
+  font-style: italic;
+}
+
+.author__link {
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $large;
+  color: $spanish-pink;
+}
+
+.author__paragraph {
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $nickel;
+}
