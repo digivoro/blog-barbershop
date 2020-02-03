@@ -24,3 +24,9 @@
   font-size: $medium;
   color: $nickel;
 }
+
+@media (max-width: 576px) {
+  .author {
+    text-align: center;
+  }
+}

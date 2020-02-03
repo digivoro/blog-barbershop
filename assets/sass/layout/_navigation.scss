@@ -5,3 +5,15 @@
 .nav-item--active {
   color: $ruddy-pink;
 }
+
+.navigation__burger {
+  color: $white;
+}
+
+@media (max-width: 576px) {
+  .navigation {
+    .logo {
+      margin-left: 1rem;
+    }
+  }
+}

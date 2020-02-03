@@ -20,3 +20,12 @@
   position: absolute;
   bottom: 10px;
 }
+
+@media (max-width: 576px) {
+  .hero__title {
+    font-size: $x-large;
+    width: 80%;
+    left: 10%;
+    top: 40%;
+  }
+}

@@ -1,11 +1,25 @@
 .blog__post {
   margin-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .blog__date {
+  font-family: $playfair-display;
   margin-bottom: 3rem;
 }
 
 .blog__buttons {
   margin-bottom: 3rem;
+}
+
+.blog__paragraph {
+  color: $nickel;
+  line-height: 3rem;
+}
+
+@media (max-width: 576px) {
+  .blog__buttons {
+    text-align: center;
+  }
 }
